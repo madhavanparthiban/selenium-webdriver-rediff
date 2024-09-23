@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listner.MyTestNgListener"/>
+  </listeners>
+  <test thread-count="5" name="Modify Stock Test : Add Stock(failed)">
+    <parameter name="action" value="addStock"/>
+    <classes>
+      <class name="testcase_portfolio.ManageStocks">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="verifyTransactionHistory" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="verifyStockIsPresent" invocation-numbers="0"/>
+          <include name="modifyStock" invocation-numbers="0"/>
+          <include name="verifyStockQuantity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase_portfolio.ManageStocks -->
+      <class name="testcase_portfolio.ManagePortfolio">
+        <methods>
+          <include name="selectPortfolio" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcase_portfolio.ManagePortfolio -->
+      <class name="testcase_portfolio.ManageSessions">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="doLogin" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcase_portfolio.ManageSessions -->
+    </classes>
+  </test> <!-- Modify Stock Test : Add Stock(failed) -->
+</suite> <!-- Failed suite [Suite] -->

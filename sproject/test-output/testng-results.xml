@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T06:53:39 IST" name="Suite" finished-at="2024-09-18T07:04:54 IST" duration-ms="674862">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T06:53:39 IST" name="Add Stock Test" finished-at="2024-09-18T06:57:13 IST" duration-ms="214175">
+      <class name="testcase_portfolio.ManageSessions">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@6989da5e]" started-at="2024-09-18T06:53:39 IST" name="beforeTest" finished-at="2024-09-18T06:53:41 IST" duration-ms="1610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@6989da5e]" started-at="2024-09-18T06:53:41 IST" name="beforeMethod" finished-at="2024-09-18T06:53:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@6989da5e]" started-at="2024-09-18T06:53:41 IST" name="doLogin" finished-at="2024-09-18T06:55:05 IST" duration-ms="84510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@6989da5e]" started-at="2024-09-18T06:55:05 IST" name="afterMethod" finished-at="2024-09-18T06:55:05 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@6989da5e]" started-at="2024-09-18T06:57:11 IST" name="afterTest" finished-at="2024-09-18T06:57:13 IST" duration-ms="2063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase_portfolio.ManageSessions -->
+      <class name="testcase_portfolio.ManageStocks">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:55:18 IST" name="beforeMethod" finished-at="2024-09-18T06:55:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addStockTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:55:18 IST" name="addStockTest" finished-at="2024-09-18T06:56:08 IST" duration-ms="50216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStockTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:56:08 IST" name="afterMethod" finished-at="2024-09-18T06:56:08 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:56:08 IST" name="beforeMethod" finished-at="2024-09-18T06:56:08 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyStockIsPresent(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:56:08 IST" name="verifyStockIsPresent" finished-at="2024-09-18T06:56:38 IST" duration-ms="30301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockIsPresent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:56:38 IST" name="afterMethod" finished-at="2024-09-18T06:56:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:56:38 IST" name="beforeMethod" finished-at="2024-09-18T06:56:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTransactionHistory(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:56:38 IST" name="verifyTransactionHistory" finished-at="2024-09-18T06:57:11 IST" duration-ms="32926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@3eb25e1a]" started-at="2024-09-18T06:57:11 IST" name="afterMethod" finished-at="2024-09-18T06:57:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase_portfolio.ManageStocks -->
+      <class name="testcase_portfolio.ManagePortfolio">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@6743e411]" started-at="2024-09-18T06:55:05 IST" name="beforeMethod" finished-at="2024-09-18T06:55:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectPortfolio(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@6743e411]" started-at="2024-09-18T06:55:05 IST" name="selectPortfolio" finished-at="2024-09-18T06:55:18 IST" duration-ms="12213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@6743e411]" started-at="2024-09-18T06:55:18 IST" name="afterMethod" finished-at="2024-09-18T06:55:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d07a63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase_portfolio.ManagePortfolio -->
+    </test> <!-- Add Stock Test -->
+    <test started-at="2024-09-18T06:57:13 IST" name="Modify Stock Test : Sell Stock" finished-at="2024-09-18T07:01:07 IST" duration-ms="233982">
+      <class name="testcase_portfolio.ManageSessions">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7d20d0b]" started-at="2024-09-18T06:57:13 IST" name="beforeTest" finished-at="2024-09-18T06:57:13 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7d20d0b]" started-at="2024-09-18T06:57:13 IST" name="beforeMethod" finished-at="2024-09-18T06:57:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7d20d0b]" started-at="2024-09-18T06:57:13 IST" name="doLogin" finished-at="2024-09-18T06:58:16 IST" duration-ms="62228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7d20d0b]" started-at="2024-09-18T06:58:16 IST" name="afterMethod" finished-at="2024-09-18T06:58:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7d20d0b]" started-at="2024-09-18T07:01:06 IST" name="afterTest" finished-at="2024-09-18T07:01:07 IST" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase_portfolio.ManageSessions -->
+      <class name="testcase_portfolio.ManageStocks">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T06:58:24 IST" name="beforeMethod" finished-at="2024-09-18T06:58:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyStockIsPresent(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T06:58:24 IST" name="verifyStockIsPresent" finished-at="2024-09-18T06:58:54 IST" duration-ms="30391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockIsPresent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T06:58:54 IST" name="afterMethod" finished-at="2024-09-18T06:58:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T06:58:54 IST" name="beforeMethod" finished-at="2024-09-18T06:58:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="modifyStock(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T06:58:54 IST" name="modifyStock" finished-at="2024-09-18T07:00:03 IST" duration-ms="68660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sellStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyStock -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:00:03 IST" name="afterMethod" finished-at="2024-09-18T07:00:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:00:03 IST" name="beforeMethod" finished-at="2024-09-18T07:00:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyStockQuantity(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:00:03 IST" name="verifyStockQuantity" finished-at="2024-09-18T07:00:33 IST" duration-ms="30435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sellStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockQuantity -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:00:33 IST" name="afterMethod" finished-at="2024-09-18T07:00:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:00:33 IST" name="beforeMethod" finished-at="2024-09-18T07:00:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTransactionHistory(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:00:33 IST" name="verifyTransactionHistory" finished-at="2024-09-18T07:01:06 IST" duration-ms="32842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sellStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@41a2befb]" started-at="2024-09-18T07:01:06 IST" name="afterMethod" finished-at="2024-09-18T07:01:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase_portfolio.ManageStocks -->
+      <class name="testcase_portfolio.ManagePortfolio">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@77f1baf5]" started-at="2024-09-18T06:58:16 IST" name="beforeMethod" finished-at="2024-09-18T06:58:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectPortfolio(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@77f1baf5]" started-at="2024-09-18T06:58:16 IST" name="selectPortfolio" finished-at="2024-09-18T06:58:24 IST" duration-ms="8396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@77f1baf5]" started-at="2024-09-18T06:58:24 IST" name="afterMethod" finished-at="2024-09-18T06:58:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46cb98a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase_portfolio.ManagePortfolio -->
+    </test> <!-- Modify Stock Test : Sell Stock -->
+    <test started-at="2024-09-18T07:01:07 IST" name="Modify Stock Test : Add Stock" finished-at="2024-09-18T07:04:54 IST" duration-ms="226615">
+      <class name="testcase_portfolio.ManageSessions">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7bedc48a]" started-at="2024-09-18T07:01:07 IST" name="beforeTest" finished-at="2024-09-18T07:01:07 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7bedc48a]" started-at="2024-09-18T07:01:07 IST" name="beforeMethod" finished-at="2024-09-18T07:01:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7bedc48a]" started-at="2024-09-18T07:01:07 IST" name="doLogin" finished-at="2024-09-18T07:02:07 IST" duration-ms="59363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7bedc48a]" started-at="2024-09-18T07:02:07 IST" name="afterMethod" finished-at="2024-09-18T07:02:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageSessions@7bedc48a]" started-at="2024-09-18T07:04:53 IST" name="afterTest" finished-at="2024-09-18T07:04:54 IST" duration-ms="1007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase_portfolio.ManageSessions -->
+      <class name="testcase_portfolio.ManageStocks">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:02:11 IST" name="beforeMethod" finished-at="2024-09-18T07:02:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyStockIsPresent(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:02:11 IST" name="verifyStockIsPresent" finished-at="2024-09-18T07:02:41 IST" duration-ms="30348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockIsPresent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:02:41 IST" name="afterMethod" finished-at="2024-09-18T07:02:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:02:41 IST" name="beforeMethod" finished-at="2024-09-18T07:02:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="modifyStock(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:02:41 IST" name="modifyStock" finished-at="2024-09-18T07:03:50 IST" duration-ms="68705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyStock -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:03:50 IST" name="afterMethod" finished-at="2024-09-18T07:03:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:03:50 IST" name="beforeMethod" finished-at="2024-09-18T07:03:50 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyStockQuantity(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:03:50 IST" name="verifyStockQuantity" finished-at="2024-09-18T07:04:20 IST" duration-ms="30303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockQuantity -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:04:20 IST" name="afterMethod" finished-at="2024-09-18T07:04:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:04:20 IST" name="beforeMethod" finished-at="2024-09-18T07:04:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTransactionHistory(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:04:20 IST" name="verifyTransactionHistory" finished-at="2024-09-18T07:04:53 IST" duration-ms="32950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManageStocks@55b0dcab]" started-at="2024-09-18T07:04:53 IST" name="afterMethod" finished-at="2024-09-18T07:04:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase_portfolio.ManageStocks -->
+      <class name="testcase_portfolio.ManagePortfolio">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@131ef10]" started-at="2024-09-18T07:02:07 IST" name="beforeMethod" finished-at="2024-09-18T07:02:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectPortfolio(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@131ef10]" started-at="2024-09-18T07:02:07 IST" name="selectPortfolio" finished-at="2024-09-18T07:02:11 IST" duration-ms="3858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcase_portfolio.ManagePortfolio@131ef10]" started-at="2024-09-18T07:02:11 IST" name="afterMethod" finished-at="2024-09-18T07:02:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4437ac07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase_portfolio.ManagePortfolio -->
+    </test> <!-- Modify Stock Test : Add Stock -->
+  </suite> <!-- Suite -->
+</testng-results>

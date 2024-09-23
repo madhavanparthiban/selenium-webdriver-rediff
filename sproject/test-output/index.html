@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Maddy\OneDrive\Desktop\projects\sproject\src\test\resources\ProjectManage.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="addStockTest(org.testng.TestRunner@6d07a63d)">addStockTest(org.testng.TestRunner@6d07a63d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageSessions" class="method navigator-link" hash-for-method="doLogin(org.testng.TestRunner@6d07a63d)">doLogin(org.testng.TestRunner@6d07a63d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageSessions" class="method navigator-link" hash-for-method="doLogin(org.testng.TestRunner@46cb98a3)">doLogin(org.testng.TestRunner@46cb98a3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageSessions" class="method navigator-link" hash-for-method="doLogin(org.testng.TestRunner@4437ac07)">doLogin(org.testng.TestRunner@4437ac07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="modifyStock(sellStock, org.testng.TestRunner@46cb98a3)">modifyStock(sellStock, org.testng.TestRunner@46cb98a3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="modifyStock(addStock, org.testng.TestRunner@4437ac07)">modifyStock(addStock, org.testng.TestRunner@4437ac07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManagePortfolio" class="method navigator-link" hash-for-method="selectPortfolio(org.testng.TestRunner@6d07a63d)">selectPortfolio(org.testng.TestRunner@6d07a63d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManagePortfolio" class="method navigator-link" hash-for-method="selectPortfolio(org.testng.TestRunner@46cb98a3)">selectPortfolio(org.testng.TestRunner@46cb98a3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManagePortfolio" class="method navigator-link" hash-for-method="selectPortfolio(org.testng.TestRunner@4437ac07)">selectPortfolio(org.testng.TestRunner@4437ac07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyStockIsPresent(org.testng.TestRunner@6d07a63d)">verifyStockIsPresent(org.testng.TestRunner@6d07a63d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyStockIsPresent(org.testng.TestRunner@46cb98a3)">verifyStockIsPresent(org.testng.TestRunner@46cb98a3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyStockIsPresent(org.testng.TestRunner@4437ac07)">verifyStockIsPresent(org.testng.TestRunner@4437ac07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyStockQuantity(sellStock, org.testng.TestRunner@46cb98a3)">verifyStockQuantity(sellStock, org.testng.TestRunner@46cb98a3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyStockQuantity(addStock, org.testng.TestRunner@4437ac07)">verifyStockQuantity(addStock, org.testng.TestRunner@4437ac07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyTransactionHistory(addStock, org.testng.TestRunner@6d07a63d)">verifyTransactionHistory(addStock, org.testng.TestRunner@6d07a63d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyTransactionHistory(sellStock, org.testng.TestRunner@46cb98a3)">verifyTransactionHistory(sellStock, org.testng.TestRunner@46cb98a3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase_portfolio.ManageStocks" class="method navigator-link" hash-for-method="verifyTransactionHistory(addStock, org.testng.TestRunner@4437ac07)">verifyTransactionHistory(addStock, org.testng.TestRunner@4437ac07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase_portfolio.ManagePortfolio</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortfolio(org.testng.TestRunner@6d07a63d)">
+                  </a> <!-- selectPortfolio(org.testng.TestRunner@6d07a63d) -->
+                  <span class="method-name">selectPortfolio</span>
+                  <span class="parameters">(org.testng.TestRunner@6d07a63d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortfolio(org.testng.TestRunner@46cb98a3)">
+                  </a> <!-- selectPortfolio(org.testng.TestRunner@46cb98a3) -->
+                  <span class="method-name">selectPortfolio</span>
+                  <span class="parameters">(org.testng.TestRunner@46cb98a3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortfolio(org.testng.TestRunner@4437ac07)">
+                  </a> <!-- selectPortfolio(org.testng.TestRunner@4437ac07) -->
+                  <span class="method-name">selectPortfolio</span>
+                  <span class="parameters">(org.testng.TestRunner@4437ac07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase_portfolio.ManageStocks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStockTest(org.testng.TestRunner@6d07a63d)">
+                  </a> <!-- addStockTest(org.testng.TestRunner@6d07a63d) -->
+                  <span class="method-name">addStockTest</span>
+                  <span class="parameters">(org.testng.TestRunner@6d07a63d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyStock(sellStock, org.testng.TestRunner@46cb98a3)">
+                  </a> <!-- modifyStock(sellStock, org.testng.TestRunner@46cb98a3) -->
+                  <span class="method-name">modifyStock</span>
+                  <span class="parameters">(sellStock,org.testng.TestRunner@46cb98a3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyStock(addStock, org.testng.TestRunner@4437ac07)">
+                  </a> <!-- modifyStock(addStock, org.testng.TestRunner@4437ac07) -->
+                  <span class="method-name">modifyStock</span>
+                  <span class="parameters">(addStock,org.testng.TestRunner@4437ac07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockIsPresent(org.testng.TestRunner@6d07a63d)">
+                  </a> <!-- verifyStockIsPresent(org.testng.TestRunner@6d07a63d) -->
+                  <span class="method-name">verifyStockIsPresent</span>
+                  <span class="parameters">(org.testng.TestRunner@6d07a63d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockIsPresent(org.testng.TestRunner@46cb98a3)">
+                  </a> <!-- verifyStockIsPresent(org.testng.TestRunner@46cb98a3) -->
+                  <span class="method-name">verifyStockIsPresent</span>
+                  <span class="parameters">(org.testng.TestRunner@46cb98a3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockIsPresent(org.testng.TestRunner@4437ac07)">
+                  </a> <!-- verifyStockIsPresent(org.testng.TestRunner@4437ac07) -->
+                  <span class="method-name">verifyStockIsPresent</span>
+                  <span class="parameters">(org.testng.TestRunner@4437ac07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity(sellStock, org.testng.TestRunner@46cb98a3)">
+                  </a> <!-- verifyStockQuantity(sellStock, org.testng.TestRunner@46cb98a3) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">(sellStock,org.testng.TestRunner@46cb98a3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity(addStock, org.testng.TestRunner@4437ac07)">
+                  </a> <!-- verifyStockQuantity(addStock, org.testng.TestRunner@4437ac07) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">(addStock,org.testng.TestRunner@4437ac07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTransactionHistory(addStock, org.testng.TestRunner@6d07a63d)">
+                  </a> <!-- verifyTransactionHistory(addStock, org.testng.TestRunner@6d07a63d) -->
+                  <span class="method-name">verifyTransactionHistory</span>
+                  <span class="parameters">(addStock,org.testng.TestRunner@6d07a63d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTransactionHistory(sellStock, org.testng.TestRunner@46cb98a3)">
+                  </a> <!-- verifyTransactionHistory(sellStock, org.testng.TestRunner@46cb98a3) -->
+                  <span class="method-name">verifyTransactionHistory</span>
+                  <span class="parameters">(sellStock,org.testng.TestRunner@46cb98a3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTransactionHistory(addStock, org.testng.TestRunner@4437ac07)">
+                  </a> <!-- verifyTransactionHistory(addStock, org.testng.TestRunner@4437ac07) -->
+                  <span class="method-name">verifyTransactionHistory</span>
+                  <span class="parameters">(addStock,org.testng.TestRunner@4437ac07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase_portfolio.ManageSessions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@6d07a63d)">
+                  </a> <!-- doLogin(org.testng.TestRunner@6d07a63d) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@6d07a63d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@46cb98a3)">
+                  </a> <!-- doLogin(org.testng.TestRunner@46cb98a3) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@46cb98a3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@4437ac07)">
+                  </a> <!-- doLogin(org.testng.TestRunner@4437ac07) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@4437ac07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Maddy\OneDrive\Desktop\projects\sproject\src\test\resources\ProjectManage.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listner.MyTestNgListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Stock Test&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;addStock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase_portfolio.ManageSessions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManageSessions --&gt;
+      &lt;class name=&quot;testcase_portfolio.ManagePortfolio&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortfolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManagePortfolio --&gt;
+      &lt;class name=&quot;testcase_portfolio.ManageStocks&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStockTest&quot;/&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManageStocks --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Stock Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Modify Stock Test : Sell Stock&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;sellStock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase_portfolio.ManageSessions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManageSessions --&gt;
+      &lt;class name=&quot;testcase_portfolio.ManagePortfolio&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortfolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManagePortfolio --&gt;
+      &lt;class name=&quot;testcase_portfolio.ManageStocks&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;modifyStock&quot;/&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManageStocks --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Stock Test : Sell Stock --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Modify Stock Test : Add Stock&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;addStock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase_portfolio.ManageSessions&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManageSessions --&gt;
+      &lt;class name=&quot;testcase_portfolio.ManagePortfolio&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortfolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManagePortfolio --&gt;
+      &lt;class name=&quot;testcase_portfolio.ManageStocks&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;modifyStock&quot;/&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcase_portfolio.ManageStocks --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Stock Test : Add Stock --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add Stock Test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Stock Test : Sell Stock (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Stock Test : Add Stock (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doLogin')
+data.setCell(0, 2, 'testcase_portfolio.ManageSessions')
+data.setCell(0, 3, 84510);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'modifyStock')
+data.setCell(1, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(1, 3, 68705);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'modifyStock')
+data.setCell(2, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(2, 3, 68660);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'testcase_portfolio.ManageSessions')
+data.setCell(3, 3, 62228);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doLogin')
+data.setCell(4, 2, 'testcase_portfolio.ManageSessions')
+data.setCell(4, 3, 59363);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addStockTest')
+data.setCell(5, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(5, 3, 50216);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyTransactionHistory')
+data.setCell(6, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(6, 3, 32950);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTransactionHistory')
+data.setCell(7, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(7, 3, 32926);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyTransactionHistory')
+data.setCell(8, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(8, 3, 32842);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyStockQuantity')
+data.setCell(9, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(9, 3, 30435);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyStockIsPresent')
+data.setCell(10, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(10, 3, 30391);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyStockIsPresent')
+data.setCell(11, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(11, 3, 30348);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyStockQuantity')
+data.setCell(12, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(12, 3, 30303);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyStockIsPresent')
+data.setCell(13, 2, 'testcase_portfolio.ManageStocks')
+data.setCell(13, 3, 30301);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'selectPortfolio')
+data.setCell(14, 2, 'testcase_portfolio.ManagePortfolio')
+data.setCell(14, 3, 12213);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'selectPortfolio')
+data.setCell(15, 2, 'testcase_portfolio.ManagePortfolio')
+data.setCell(15, 3, 8396);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'selectPortfolio')
+data.setCell(16, 2, 'testcase_portfolio.ManagePortfolio')
+data.setCell(16, 3, 3858);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">28 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcase_portfolio.ManageStocks</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">addStockTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">modifyStock</span>
+                <br/>
+                <span class="ignored-method-name">verifyStockQuantity</span>
+                <br/>
+                <span class="ignored-method-name">addStockTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcase_portfolio.ManagePortfolio</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">renamePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">renamePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">renamePortfolio</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcase_portfolio.ManageSessions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">doLogout</span>
+                <br/>
+                <span class="ignored-method-name">doLogout</span>
+                <br/>
+                <span class="ignored-method-name">doLogout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageSessions</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">1815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">1819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">86340 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManagePortfolio</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">86358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectPortfolio(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">86360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">98584 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageStocks</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">98588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStockTest(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">98589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">148813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">148820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockIsPresent(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">148823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">179130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">179136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTransactionHistory(addStock, org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">179137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">212068 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageSessions</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@6d07a63d)</span>
+                <span class="method-start">212070 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">214206 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">214213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">214215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">276459 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManagePortfolio</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">276466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectPortfolio(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">276468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">284871 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageStocks</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">284876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockIsPresent(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">284878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">315275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">315278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">modifyStock(sellStock, org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">315279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">383946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">383949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockQuantity(sellStock, org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">383950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">414390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">414392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTransactionHistory(sellStock, org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">414393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">447239 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageSessions</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@46cb98a3)</span>
+                <span class="method-start">447242 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">448206 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">448213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">448214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">507580 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManagePortfolio</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">507590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectPortfolio(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">507591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">511453 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageStocks</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">511456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockIsPresent(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">511459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">541811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">541813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">modifyStock(addStock, org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">541816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">610529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">610539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockQuantity(addStock, org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">610547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">640854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">640856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTransactionHistory(addStock, org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">640857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">673811 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase_portfolio.ManageSessions</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@4437ac07)</span>
+                <span class="method-start">673813 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
